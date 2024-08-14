@@ -250,3 +250,20 @@ PySOC was originally written by Xing Gao et al. for python 2.x (J. Chem. Theory 
 [MolSOC](molsoc/), which is used for the calculation of atomic integrals, was originally written by Sandro Giuseppe Chiodo et al. (Computer Physics Communications 185 (2014) 676–683).
 
 PySOC was re-written for Python 3.x by Oliver S. Lee.
+
+
+
+1. Create a virtual environment and activate it 
+2. install the dependencies
+3. add the path to bashrc
+add path
+nano ~/.bashrc
+
+at the bottom add 
+
+
+apply changes
+source ~/.bashrc
+
+4. pip install importlib_resources
+5. run the pysoc command
